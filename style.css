@@ -4,24 +4,49 @@
 	border : 0;
 }
 
+@media print { 
+    
+    h1, h2, h3, p {
+     color: #000; 
+     font-family: Times, 'Times New Roman', serif;
+    }
+
+    #contact_div{
+        display: none;
+    }
+   }
+
+
+
 
 #big_div{
 
-    background-color: #f3f3f3;
-    border: 1px solid black;
     width: 80%;
     margin: 8% auto;
+    box-shadow:
+    0 0 0 7px #60B88D,
+    0 0 0 14px #90CDAF,
+    0 0 0 21px #BFE3D1;
+    background-color: #f3f3f3;
     height: 80%;
+    padding-top: 2%;
 }
 
 #name_div{
 
-   	border: 0px solid black;
-    width: 50%;
+
+    min-width: 60%;
     margin: 8% auto auto 0;
     height: 80%;
+}
+
+#name_div p{
+
+    margin-left: 15%;
 
 }
+
+
 
 #about_div{
 
@@ -32,6 +57,7 @@
     margin: 7% auto auto auto ;
     height: 80%;
 }
+
 
 #work_div{
 
@@ -54,14 +80,18 @@
     margin: 5% auto auto auto;
   
 }
+
 table, th, td {
 
+    text-align: center;
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 th, td {
 
     padding: 6px;
+
 
 }
 
@@ -85,7 +115,7 @@ th, td {
 #ul-div{
     
     border: 0px solid black;
-    width: 60%;
+    width: 80%;
     margin: 5% auto auto auto;
 
 }
@@ -93,11 +123,12 @@ th, td {
 
 progress {
 
-    width: 400px;
+    width: 100%;
     background: #333;
     border-radius: 13px;
     height: 20px;
-    padding: 3px
+    padding: 3px;
+
 }
 
 progress::-webkit-progress-bar {
@@ -116,16 +147,12 @@ progress::-moz-progress-bar {
 
 #contact_div{
 
-    border: 0px solid black;
     width: 100%;
     margin: 8% auto auto 0;
 
 }
 
 #form_id{
-
- 
-    border: 0px solid black;
     width: 80%;
     margin: 5% auto auto auto;
 }
@@ -133,7 +160,6 @@ progress::-moz-progress-bar {
 .input_class{
 
     font-size: 25px;
-    border: 0px solid black;
     width: 40%;
     height: 22px;
 
@@ -171,6 +197,7 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+
 }
 
 .button{ 
