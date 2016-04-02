@@ -11,7 +11,7 @@
         <div id = "big_div">
 
             <div id= "name_div">
-                <h1><img src= "black.png" height= "20px"><span> Sargis Harutyunyan</span></h1>
+                <h1><img src= "black.png"><span> Sargis Harutyunyan</span></h1>
                 <p>Front-End Web  Developer</p>
             </div>
 
@@ -21,8 +21,44 @@
                 <p>ellentesque venenatis vestibulum erat, quis suscipit mi lacinia eget. Nam egestas scelerisque lorem, eu lobortis enim ultrices vel. Nunc eu erat vitae lorem vulputate tempus. Integer mollis interdum mi, et laoreet ligula dignissim a. Sed cursus, odio ullamcorper malesuada imperdiet, orci nulla pretium enim, quis vulputate tellus mauris id nibh.</p>
             </div>
 
+            <div id = "educ_div">
+                 <h2><img src= "black.png"> Education</h2>
+                  <table id = "tab">
+                        <tr>
+
+                            <th width="31%"><h3>Educational institution</h3></th> 
+                            <th><h3>Specialty</h3></th>
+                             
+                        </tr>
+
+                        <tr>
+                            <td width="31%">
+                               <h3>School</h3>
+                              <p class="p_work">Sep 2002 - May 2010 </p>
+                            </td>
+                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna. Ut congue convallis mattis.</td> 
+                        </tr>
+                          <tr>
+                            <td width="31%">
+                            <h3>High School</h3>
+                              <p class="p_work">Sep 2010 - May 2013</p>
+                            </td>
+                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna.</td> 
+                        </tr>
+                          <tr>
+                            <td width="31%">
+                              <h3>Univercity</h3>
+                              <p class="p_work">Sep 2013 - May 2016</p>
+                            </td>
+                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna. </td> 
+                        </tr>
+
+                    </table>
+            </div>
+
+
             <div id = "work_div">
-                 <h2><img src= "black.png" height= "18px">  Working experience</h2>
+                 <h2><img src= "black.png">  Working experience</h2>
 
                     <table id = "tab">
                         <tr>
@@ -60,43 +96,10 @@
                     </table>
             </div>
 
-            <div id = "educ_div">
-                 <h2><img src= "black.png" height= "18px"> Education</h2>
-                  <table id = "tab">
-                        <tr>
-
-                            <th width="31%"><h3>Educational institution</h3></th> 
-                            <th><h3>Specialty</h3></th>
-                             
-                        </tr>
-
-                        <tr>
-                            <td width="31%">
-                               <h3>School</h3>
-                              <p class="p_work">Sep 2002 - May 2010 </p>
-                            </td>
-                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna. Ut congue convallis mattis.</td> 
-                        </tr>
-                          <tr>
-                            <td width="31%">
-                            <h3>High School</h3>
-                              <p class="p_work">Sep 2010 - May 2013</p>
-                            </td>
-                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna.</td> 
-                        </tr>
-                          <tr>
-                            <td width="31%">
-                              <h3>Univercity</h3>
-                              <p class="p_work">Sep 2013 - May 2016</p>
-                            </td>
-                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna. </td> 
-                        </tr>
-
-                    </table>
-            </div>
+            
 
             <div id = "skill_div">
-                 <h2><img src= "black.png" height= "18px">  Skills</h2>
+                 <h2><img src= "black.png">  Skills</h2>
 
                  <div  id = "ul-div">
                     <table id = "table-skills">
@@ -163,32 +166,40 @@
                     </table>
             </div>
 
-        </div>
+        
 
             <div id = "contact_div">
 
-                <h2><img src= "black.png" height= "18px">  Contact Me</h2>
+                <h2><img src= "black.png">  Contact Me</h2>
 
 
 
-                <form id = "form_id">
+                <form id = "form_id" method= "get">
+                
+                  <fieldset>
+                       <legend>Of my skills that you need</legend>
+                        <label><input type="checkbox" value="Html&Css"> Html&Css</label>
+                        <label><input type="checkbox" value="JavaScript"> JavaScript</label>
+                        <label><input type="checkbox" value="PHP"> PHP</label>
+                        <label><input type="checkbox" value="MySql"> MySql</label>
+                        <label><input type="checkbox" value="C++"> C++</label>
+                        <label><input type="checkbox" value="Java"> Java</label>
+                        <label><input type="checkbox" value="Wordpress"> Wordpress</label>
+              </fieldset>  
+               
+                    
+                   
+                    
+
 
                     <p>Message:</p>
                      <textarea required placeholder="Your message"  placeholder="Your message" name="comment" ></textarea>
-                    <br>
-                    <br>
                     <p>Your Name:</p> <input type= "text" name="name" required placeholder="Please input your Name..." class= "input_class"></input>
-                    <br>
-                    <br>
                     <p>Your Email:</p>  <input type= "email" name="email" required placeholder="Please input your Email..." class= "input_class"></input>
-                    <br>
-                    <br>
                     <p>Your Phone:</p> 
                       <input type= "text" name="number" required placeholder="Please input your Phone..."class= "input_class"></input>
-                    <br>
-                    <br>
-
-                    <input  class = "button" type="submit" value="Submit">
+                    <input  id = "button1" type="submit" value="Send">
+                    <input  id = "button2" type="reset" value="Clean out">
                 </form>
 
             </div>
