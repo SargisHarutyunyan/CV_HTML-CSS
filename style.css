@@ -4,15 +4,31 @@
 	border : 0;
 }
 
+
+body{
+
+    background-color: #e6e8e3;
+}
+
+
 @media print { 
     
-    h1, h2, h3, p {
+    h1, h2, h3, h4, p {
      color: #000; 
      font-family: Times, 'Times New Roman', serif;
     }
 
+    #name_div{
+
+      
+    }
+
     #contact_div{
         display: none;
+    }
+
+    .up{
+         display: none;
     }
    }
 
@@ -27,6 +43,15 @@ form p{
     font-size: 20px;
     display: block;
 
+}
+
+.table_first{
+
+    width: 31%;
+}
+
+.table_second{
+    width: 5%;
 }
 
 #big_div{
@@ -62,7 +87,7 @@ form p{
 
     padding: 1%;
     background-color: #e6e8e3;
-    border: 3px ridge #e6e8e3;
+    border: 3px ridge #e6e8e8;
     width: 62%;
     margin: 7% auto auto auto ;
     height: 80%;
@@ -82,11 +107,15 @@ form p{
      font-style: oblique;
 }
 
-#tab{
+.tab{
 
     width: 80%;
     margin: 5% auto auto auto;
   
+}
+
+.tab tr th p{
+    font-size: 20px;
 }
 
 table, th, td {
@@ -271,4 +300,57 @@ form legend{
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     
+}
+
+
+.up{
+
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(2,0,0,5.5) 0px 1px 3px;
+}
+
+.up:hover{
+
+    box-shadow: -webkit-box-shadow: 0px 0px 38px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 38px -4px rgba(0,0,0,1);
+    box-shadow: 0px 0px 38px -4px rgba(0,0,0,1);
+
+}
+
+
+section{
+    position: fixed;
+    margin-top: -250%;
+
+}
+
+section ul{
+
+    text-align: center;
+
+}
+section ul p{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+section ul li{
+
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section img{
+
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+
+}
+
+section img:hover{
+    border-radius: 30px;
+    box-shadow: rgba(2,0,0,5.5) 0px 1px 3px;
 }
