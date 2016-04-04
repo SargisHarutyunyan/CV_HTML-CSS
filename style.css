@@ -18,10 +18,13 @@ body{
      font-family: Times, 'Times New Roman', serif;
     }
 
-    #name_div{
-
-      
+    footer{
+        display: none;
     }
+    header{
+        display: none;
+    }
+
 
     #contact_div{
         display: none;
@@ -32,6 +35,65 @@ body{
     }
    }
 
+header{
+
+    background-color: #55B59A;
+    height: 72px;
+    box-shadow: 7px 7px 4px  #888888;       
+}
+
+header h3{
+    
+    font-family:cursive;
+    
+}
+
+header p{
+    
+    font-family:cursive;
+    
+}
+
+header a{
+
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+
+header nav ul {
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #55B59A;
+    font-size: 25px;
+    padding-left: 10%;
+
+}
+
+header nav li {
+
+    float: left;
+
+}
+
+header nav li a {
+
+    display: block;
+    text-align: center;
+    padding: 20px 25px;
+    
+}
+
+
+header nav li a:hover {
+
+    border: 1px solid white;
+    background-color: #00cc99;
+    box-shadow: 7px 7px 4px #808080;
+    border-radius: 40px 10px;
+}
 
 h2 img{
     height: 18px;
@@ -307,7 +369,7 @@ form legend{
 
     position: fixed;
     right: 25px;
-    bottom: 20px;
+    bottom: 25px;
     border-radius: 3px;
     box-shadow: rgba(2,0,0,5.5) 0px 1px 3px;
 }
@@ -320,4 +382,73 @@ form legend{
 
 }
 
+footer{
 
+<<<<<<< HEAD
+
+    width: 100%; 
+    height: 100px;
+    color: white;
+    background-color: black;
+
+}
+
+
+
+footer section{
+
+    margin-top: 50px; 
+    background-color: black;
+    margin: auto auto auto 100px; 
+
+}
+footer section h3{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}   
+
+footer section ul li{
+    display:inline-block;
+}
+
+footer section img{
+    width: 42px;
+    height: 42px;
+    border-radius: 30px;
+}
+
+footer section img:hover{
+
+    border-radius: 30px;
+
+}
+
+
+
+#services{
+
+        width: 25%;
+        margin-left: 25px;
+}
+
+#copyright{
+    float: right;
+    font-size: 15px;
+}
+
+#logo{
+    
+    margin-left: 35%;
+    margin-top: -60px;
+    width: 30%;
+    height: 50px;
+    padding: 5px;
+
+}
+#logo img{
+    
+    height: 60px;
+    width: 99%;
+}
+=======
+>>>>>>> origin/gh-pages
