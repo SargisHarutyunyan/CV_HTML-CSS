@@ -25,31 +25,31 @@
     			
     			<ul>
 				    <li class="efect" >
-                        <a href="#home" >
+                        <a id = "a0" href="#home" onclick="getid(this)">
                             <img src="images/about.png">
                             About
                         </a>
                     </li>
     				<li class="efect">
-                        <a href="#home">
+                        <a id = "a1" href="#home" onclick="getid(this)">
                             <img src="images/work.png">
                             Working
                         </a>
                     </li>
     				<li class="efect">
-                        <a href="#home">
+                        <a id = "a2" href="#home" onclick="getid(this)">
                             <img src="images/contact.png">
                             Contact
                         </a>
                     </li>
     				<li class="efect">
-                        <a href="#home">
+                        <a id = "a3" href="#home" onclick="getid(this)">
                             <img src="images/skills.png">
                             Skills
                         </a>
                     </li>
     				<li class="efect">    
-                        <a href="#home">
+                        <a id = "a4" href="#home" onclick="getid(this)">
                             <img src="images/educ.png">
                             Education
                         </a>
@@ -86,21 +86,60 @@
 
             <div id = "work">
 
-                <img id = "aboutImg" src = "images/avatar.png">   
+                <table class = "tab">
+                        <tr>
+
+                            <th class = "table_first"><p>Company</p></th> 
+                            <th><p>Position</p></th>
+                             
+                        </tr>
+
+                        <tr>
+                            <td class = "table_first">
+                                  <h3>Some companies</h3>
+                                  <p class="p_work">Front-End Developer</p>
+                                  <p class="p_work">Jan 2013 - Feb 2014</p>
+                            </td>
+                            <td>
+                                 Vivamus urna ante, rutrum non tincidunt eu, mollis a urna. Ut congue convallis mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis sollicitudin felis viverra volutpat. In vel scelerisque tortor.
+                            </td> 
+                        </tr>
+                          <tr>
+                            <td class = "table_first">
+                              <h3>Some companies</h3>
+                              <p class="p_work">Front-End Developer</p> 
+                              <p class="p_work">March 2014 - Dec 2014</p>
+                            </td>
+                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna. Ut congue convallis mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis sollicitudin felis viverra volutpat.</td> 
+                        </tr>
+                          <tr>
+                            <td class = "table_first">
+                              <h3>Some companies</h3>
+                              <p class="p_work">Front-End Developer</p>
+                              <p class="p_work">Feb 2015 - June 2015</p>
+                            </td>
+                            <td>Vivamus urna ante, rutrum non tincidunt eu, mollis a urna. Ut congue convallis mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis sollicitudin felis viverra volutpat.</td> 
+                        </tr>
+
+                    </table>
 
 
-                <div id="info">
+
+            </div>
+
+            <div id = "contact">
+
+                <div id="contactInfo">
                     <article>
-                        <h1>
-                            Hi there! Welcome to my CV site...
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. At vero eos et accusamus et iusto odio dignissimos, ducimus qui blanditiis.
-                        </p>
+                        
                         <h3>Name: Sargis</h3>
                         <h3>Surname: Harutyunyan</h3>
                         <h3>Birthdate: 27.02.1996</h3>
                         <h3>Sex: Male</h3>
+                        <address>Address: Country, City, Street, House</address>
+                        <h3>Phone: <a href="tel:+13174562564">317-456-2564</a></h3>
+                        <h3>Email: <a href="mailto:example@tutorialspark.com">myemail</a></h3>
+
                     </article>
 
                 </div>  
@@ -108,6 +147,24 @@
 
 
             </div>
+
+            <div id = "skills">
+
+                
+
+
+
+            </div>
+
+            <div id = "educ">
+
+                
+
+
+
+            </div>
+
+
 
 
  

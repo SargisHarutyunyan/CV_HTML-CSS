@@ -48,7 +48,7 @@ body{
 
 #about{
 
-	display: none;
+
 	clear: both;
 	float: left;
 	padding: 2px;
@@ -74,6 +74,7 @@ body{
 
 
 #aboutImg{
+	
 	float: left;
 	padding: 10px;
 	border: 1px solid #47c9af;
@@ -92,13 +93,122 @@ body{
 
 }
 #info article h3:first-of-type{
-
 	margin-top: 20px;
+}
 
+/**************************/
+#work{
+
+	display: none;
+	float: left;
+	padding: 2px;
+	background-color: white;
+	width: 99.3%;
+	height: 400px;
+	border: 2px solid white;
+}
+
+
+.tab{
+	height: 100%;
+    width: 100%;
+    margin: 0 auto auto auto;
+  
+}
+
+.tab tr th p{
+
+    font-size: 20px;
+}
+
+.table_first{
+
+    width: 25%;
+}
+table, th, td {
+
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+
+    padding: 6px;
+
+
+}
+
+
+/******************************/
+
+
+
+
+
+/******************************/
+
+#contact{
+	display: none;
+	float: left;
+	width: 100%; 
+	border: 1px solid blue;
+	height: 400px;
+	background-color: white;
+
+
+}
+#contactInfo{
 
 
 
 }
+
+
+
+/******************************/
+
+
+
+
+
+/******************************/
+
+#skills{
+	display: none;
+	float: left;
+	width: 100%; 
+	border: 1px solid blue;
+	height: 400px;
+	background-color: red;
+
+
+}
+
+
+
+
+/******************************/
+
+
+
+/******************************/
+
+#educ{
+	display: none;
+	float: left;
+	width: 100%; 
+	border: 1px solid blue;
+	height: 400px;
+	background-color: blue;
+
+
+}
+
+
+
+
+/******************************/
 
 
 .efect{
